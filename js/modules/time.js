@@ -13,5 +13,3 @@ let openDay = timeNow >= weekExpedient[0] && timeNow <= weekExpedient[1];
 if (openDay && openWeek) {
   expedient.classList.add("open");
 }
-
-console.log(weekExpedient);
