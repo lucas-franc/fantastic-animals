@@ -1,4 +1,8 @@
 export default function initFetchBitcoin() {
+  function showBitcoinPrice(btcPrice) {
+    const bitcoinPrice = document.querySelector(".btc-price");
+    bitcoinPrice.innerText = btcPrice;
+  }
   async function fetchBitcoin(url) {
     try {
       const bitcoinResponse = await fetch(url);
@@ -8,11 +12,6 @@ export default function initFetchBitcoin() {
     } catch (error) {
       console.log(error);
     }
-  }
-
-  function showBitcoinPrice(btcPrice) {
-    const bitcoinPrice = document.querySelector(".btc-price");
-    bitcoinPrice.innerText = btcPrice;
   }
 
   fetchBitcoin("https://blockchain.info/ticker");

@@ -8,7 +8,7 @@ const dayNow = dateNow.getDay();
 const timeNow = dateNow.getHours();
 
 const openWeek = weekdays.indexOf(dayNow) !== -1;
-let openDay = timeNow >= weekExpedient[0] && timeNow <= weekExpedient[1];
+const openDay = timeNow >= weekExpedient[0] && timeNow <= weekExpedient[1];
 
 if (openDay && openWeek) {
   expedient.classList.add("open");
