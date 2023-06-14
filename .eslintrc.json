@@ -9,6 +9,7 @@
         "ecmaVersion": "latest",
         "sourceType": "module"
     },
+    "eslintIgnore": [ "main.js"],
     "rules": {
       "no-param-reassign": 0,
       "import/extensions": 0,
