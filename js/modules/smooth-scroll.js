@@ -22,7 +22,7 @@ export default class SmoothScroll {
     });
   }
   init() {
-    if (this.internLinksinks.length) {
+    if (this.internLinks.length) {
       this.addLinkEvent();
       return this;
     }
