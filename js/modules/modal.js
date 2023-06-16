@@ -17,15 +17,15 @@ export default class Modal {
     this.containerModal.classList.toggle("active");
   }
   clickOutCloseModal(event) {
-    if (event.target === this) toggleModal(event);
+    if (event.target === this) this.eventToggleModal(event);
   }
   addEventModal() {
-    this.openButton.addEventListener("click", toggleModal);
-    this.closeButton.addEventListener("click", toggleModal);
-    this.containerModal.addEventListener("click", clickOutCloseModal);
+    this.openButton.addEventListener("click", this.eventToggleModal);
+    this.closeButton.addEventListener("click", this.eventToggleModal);
+    this.containerModal.addEventListener("click", this.clickOutCloseModal);
   }
   init() {
-    if (openButton && closeButton && containerModal) {
+    if (this.openButton && this.closeButton && this.containerModal) {
       this.addEventModal();
     }
   }
