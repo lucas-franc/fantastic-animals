@@ -26,7 +26,11 @@ const modal = new Modal(
 );
 modal.init();
 initAnimationScroll();
+<<<<<<< HEAD
+initModal();
+=======
 initTabNav();
+>>>>>>> d763ed6b013c8d7f505e1ca35881d1767bbda71a
 initTooltip();
 initDropdownMenu();
 initMenuMobile();
