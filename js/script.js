@@ -20,7 +20,6 @@ const tabnav = new TabNav(
 );
 tabnav.init();
 initAnimationScroll();
-initTabNav();
 initModal();
 initTooltip();
 initDropdownMenu();
