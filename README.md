@@ -9,4 +9,5 @@ This project was developed during a course of JavaScript, it consists in a web s
 * setTimeout()
 * assyncrounos JavaScript
 * classes in JavaScript (implemented in the ES6)
-* DOM interaction
+* DOM selection
+* datasets
