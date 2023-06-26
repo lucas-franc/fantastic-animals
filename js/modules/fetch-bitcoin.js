@@ -1,9 +1,9 @@
-export default function initFetchBitcoin() {
+export default function fetchBitcoins(url, target) {
   function showBitcoinPrice(btcPrice) {
-    const bitcoinPrice = document.querySelector(".btc-price");
+    const bitcoinPrice = document.querySelector(target);
     bitcoinPrice.innerText = btcPrice;
   }
-  async function fetchBitcoin(url) {
+  async function fetchBitcoin() {
     try {
       const bitcoinResponse = await fetch(url);
       const bitcoinJson = await bitcoinResponse.json();
@@ -14,5 +14,5 @@ export default function initFetchBitcoin() {
     }
   }
 
-  fetchBitcoin("https://blockchain.info/ticker");
+  return fetchBitcoin();
 }
