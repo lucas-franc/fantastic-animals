@@ -4,10 +4,10 @@ import Accordion from "./modules/accordion.js";
 import TabNav from "./modules/tab-nav.js";
 import Modal from "./modules/modal.js";
 import Tooltip from "./modules/tooltip.js";
+import fetchAnimals from "./modules/fetch-animals.js";
 import initDropdownMenu from "./modules/dropdown-menu.js";
 import initMenuMobile from "./modules/menu-mobile.js";
 import initTime from "./modules/time.js";
-import initFetchAnimals from "./modules/fetch-animals.js";
 import initFetchBitcoin from "./modules/fetch-bitcoin.js";
 
 const smoothScroll = new SmoothScroll('[data-menu="smooth"] a[href^="#"]');
@@ -28,9 +28,9 @@ modal.init();
 
 const tooltip = new Tooltip("[data-tooltip]");
 tooltip.init();
+fetchAnimals("../../animalsapi.json", ".grid-numbers");
 initAnimationScroll();
 initDropdownMenu();
 initMenuMobile();
 initTime();
-initFetchAnimals();
 initFetchBitcoin();
