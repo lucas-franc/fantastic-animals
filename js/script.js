@@ -6,7 +6,7 @@ import Modal from './modules/modal.js';
 import Tooltip from './modules/tooltip.js';
 import fetchAnimals from './modules/fetch-animals.js';
 import DropdownMenu from './modules/dropdown-menu.js';
-import initMenuMobile from './modules/menu-mobile.js';
+import MenuMobile from './modules/menu-mobile.js';
 import initTime from './modules/time.js';
 import fetchBitcoins from './modules/fetch-bitcoin.js';
 
@@ -33,6 +33,7 @@ const animationScroll = new AnimationScroll("[data-anime='scroll']");
 animationScroll.init();
 const dropdownMenu = new DropdownMenu('[data-dropdown]');
 dropdownMenu.init();
-initMenuMobile();
+const menuMobile = new MenuMobile('[data-menu="button"]', '[data-menu="list"]');
+menuMobile.init();
 initTime();
 fetchBitcoins('https://blockchain.info/ticker', '.btc-price');
