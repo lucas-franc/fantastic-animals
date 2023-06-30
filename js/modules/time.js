@@ -1,15 +1,39 @@
-export default function initTime() {}
+export default class Expedient {
+  constructor(expedient, activeClass) {
+    this.expedient = document.querySelector(expedient);
+    this.activeClass = activeClass;
+  }
 
-const expedient = document.querySelector("[data-week]");
-const weekdays = expedient.dataset.week.split(",").map(Number);
-const weekExpedient = expedient.dataset.time.split(",").map(Number);
-const dateNow = new Date();
-const dayNow = dateNow.getDay();
-const timeNow = dateNow.getHours();
+  expedientData() {
+    this.weekdays = this.expedient.dataset.week.split(',').map(Number);
+    this.weekExpedient = this.expedient.dataset.time.split(',').map(Number);
+  }
 
-const openWeek = weekdays.indexOf(dayNow) !== -1;
-const openDay = timeNow >= weekExpedient[0] && timeNow <= weekExpedient[1];
+  dataNow() {
+    this.dateNow = new Date();
+    this.dayNow = this.dateNow.getDay();
+    this.timeNow = this.dateNow.getUTCHours() - 3;
+  }
 
-if (openDay && openWeek) {
-  expedient.classList.add("open");
+  isOpen() {
+    const openWeek = this.weekdays.indexOf(this.dayNow) !== -1;
+    const openDay =
+      this.timeNow >= this.weekExpedient[0] &&
+      this.timeNow <= this.weekExpedient[1];
+    return openWeek && openDay;
+  }
+
+  activeOpen() {
+    if (this.isOpen()) {
+      this.expedient.classList.add(this.activeClass);
+    }
+  }
+  init() {
+    if (this.expedient) {
+      this.expedientData();
+      this.dataNow();
+      this.activeOpen();
+    }
+    return this;
+  }
 }
