@@ -16,3 +16,5 @@ This project was developed during a course of JavaScript, it consists in a web s
 - classes in JavaScript (implemented in the ES6)
 - DOM selection
 - datasets
+- improved my css
+- automation, webpack, babel, npm
