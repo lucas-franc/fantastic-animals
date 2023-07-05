@@ -16,11 +16,11 @@ This project was developed during a course of JavaScript, it consists in a web s
 
 ## What I learned
 
-- fetch()
-- setTimeout()
+- `fetch()`
+- `setTimeout()`
 - assyncrounos JavaScript
 - classes in JavaScript (implemented in the ES6)
 - DOM selection
-- datasets
+- `datasets`
 - improved my css
 - automation, webpack, babel, npm
