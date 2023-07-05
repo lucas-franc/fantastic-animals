@@ -9,6 +9,7 @@ import DropdownMenu from './modules/dropdown-menu.js';
 import MenuMobile from './modules/menu-mobile.js';
 import Expedient from './modules/time.js';
 import fetchBitcoins from './modules/fetch-bitcoin.js';
+import { SlideNav } from './modules/slide.js';
 
 const smoothScroll = new SmoothScroll('[data-menu="smooth"] a[href^="#"]');
 smoothScroll.init();
@@ -38,3 +39,6 @@ menuMobile.init();
 const expedient = new Expedient('[data-week]', 'open');
 expedient.init();
 fetchBitcoins('https://blockchain.info/ticker', '.btc-price');
+const slide = new SlideNav('.slide', '.slide-wrapper');
+slide.init();
+slide.addControl('.custom-controls');
