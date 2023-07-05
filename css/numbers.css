@@ -24,4 +24,7 @@
     grid-column: 1;
     align-content: start;
   }
+  .grid-numbers h3 {
+    font-size: 1.5rem;
+  }
 }
