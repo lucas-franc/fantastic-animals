@@ -13,6 +13,5 @@ This project was developed during a course of JavaScript, it consists in a web s
 * datasets
 
 <picture>
- <source media="(prefers-color-scheme: dark)" srcset="./img/fox.jpg">
- <img alt="YOUR-ALT-TEXT" src="YOUR-DEFAULT-IMAGE">
+ <img alt="YOUR-ALT-TEXT" src="./img/fox.jpg">
 </picture>
