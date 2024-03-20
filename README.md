@@ -58,6 +58,6 @@ Agradecemos por utilizar nosso site e esperamos que seja útil para você!
 
 ## Imagem do Projeto
 
-![Imagem do Projeto](fantastic-animals\img\projeto.png)
+![Imagem do Projeto](/img/projeto.png)
 
 Adicione uma imagem do projeto aqui para dar uma prévia visual aos usuários.
