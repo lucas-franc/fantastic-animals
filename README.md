@@ -40,7 +40,6 @@ Para executar o projeto localmente, siga estas etapas:
    npm i
    ```
 
-   Substitua `firefox` pelo comando do seu navegador preferido, se necessário.
 
 ## Contribuições
 
