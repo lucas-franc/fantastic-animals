@@ -8,6 +8,10 @@ Este é o README para o projeto do site desenvolvido durante o curso de JavaScri
 
 O site foi desenvolvido como parte de um curso abrangente sobre JavaScript, com foco em assincronicidade e consumo de API. Durante o curso, explorei os conceitos fundamentais de JavaScript, incluindo programação assíncrona, manipulação do DOM, eventos, e como consumir APIs externas.
 
+## Imagem do Projeto
+
+![Imagem do Projeto](/img/projeto.png)
+
 ## Funcionalidades Principais
 
 1. **JavaScript Assíncrono:** Implementei diversas funcionalidade que demonstra o uso de JavaScript assíncrono, incluindo Promises, async/await e callbacks.
@@ -56,8 +60,5 @@ Se você tiver dúvidas ou precisar de assistência adicional, entre em contato 
 
 Agradecemos por utilizar nosso site e esperamos que seja útil para você!
 
-## Imagem do Projeto
 
-![Imagem do Projeto](/img/projeto.png)
 
-Adicione uma imagem do projeto aqui para dar uma prévia visual aos usuários.
