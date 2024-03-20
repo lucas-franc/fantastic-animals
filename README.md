@@ -38,13 +38,12 @@ Para executar o projeto localmente, siga estas etapas:
    cd nome-do-repositorio
    ```
 
-3. Abra o arquivo `index.html` em um navegador da web:
+3. Utilize o seguinte comando para baixar os packages:
 
    ```bash
-   firefox index.html
+   npm i
    ```
-
-   Substitua `firefox` pelo comando do seu navegador preferido, se necessário.
+4. Utilize a extensão Go Live do VSCode para rodar o projeto.
 
 ## Contribuições
 
