@@ -52,16 +52,12 @@ Este projeto está licenciado sob a [Licença MIT](LICENSE), o que significa que
 
 ## Contato
 
-Se você tiver dúvidas ou precisar de assistência adicional, entre em contato com o mantenedor do projeto por meio do email [seu-email@example.com](mailto:seu-email@example.com).
+Se você tiver dúvidas ou precisar de assistência adicional, entre em contato com o mantenedor do projeto por meio do email [lucas.fnev@gmail.com](mailto:lucas.fnev@gmail.com).
 
 Agradecemos por utilizar nosso site e esperamos que seja útil para você!
 
----
-
-*Este README foi criado com carinho utilizando o poder do JavaScript!*
-
 ## Imagem do Projeto
 
-![Imagem do Projeto](https://caminho/para/imagem.jpg)
+![Imagem do Projeto](fantastic-animals\img\projeto.png)
 
 Adicione uma imagem do projeto aqui para dar uma prévia visual aos usuários.
