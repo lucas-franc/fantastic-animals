@@ -2,7 +2,7 @@ Entendi, aqui está a versão ajustada:
 
 # README - Site JavaScript Assíncrono e Consumo de API
 
-Este é o README para o projeto do site desenvolvido durante o curso de JavaScript focado em assincronicidade e consumo de API. Aqui você encontrará informações importantes sobre o projeto, como executá-lo, suas funcionalidades e outras orientações relevantes.
+Este é o README para o projeto do site desenvolvido durante o curso de JavaScript. Aqui você encontrará informações importantes sobre o projeto, como executá-lo, suas funcionalidades e outras orientações relevantes.
 
 ## Descrição do Projeto
 
